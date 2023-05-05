@@ -41,7 +41,7 @@ const ProjectData =[
     },
     {
         img:Image8,
-        link:"https://github.com/RehanAli357/PortfolioWebsite",
+        link:"https://github.com/RehanAli357/Portfolio",
         title:"Porfolio",
         description:"My Portfolio website here user can see my work and can contact me"
 
