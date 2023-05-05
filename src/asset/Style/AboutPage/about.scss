@@ -1,0 +1,108 @@
+.AboutPage{
+    
+    .AboutCard{
+        margin-top: 7%;
+        flex-direction: column;
+        width: 90%;
+        position: relative;
+        img{
+            border-radius: 100%;
+            border: 10em solid black;
+            margin-top:3%;
+        }
+        .Content{
+            margin-top: 2%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            h1{
+                font-size: 10rem;
+                letter-spacing: -0.1em;
+                margin-left:0.4em;
+                text-decoration: underline;
+            }
+            .Card{
+                padding: 10em 20em;
+                width: fit-content;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p{
+                    font-size: 3rem;
+                    line-height: 1.3em;
+                    text-align: center;
+                    margin-top: 2em;
+                }
+                button{
+                    font-size: 2.5rem;
+                    padding: 0.3em 1em;
+                    background-color: black;
+                    color: white;
+                    border: 0.2em solid black;
+                    border-radius: 40em;
+                    transition: 0.2s ease-in;
+                    margin-top: 1em;
+                   &:hover{
+                        transition: 0.2s ease-in-out;
+                        color: black;
+                        background-color: aliceblue;
+                        cursor: pointer;
+                    }
+                }
+                
+                q,i{
+                    font-size: 3rem;
+                    background-color: rgb(252, 255, 201);
+                }
+                :nth-child(2){
+                    margin-top: 0.5em;
+                }
+               
+            }
+        }
+    }
+    
+}
+
+@media (max-width : 768px) {
+    .AboutPage{
+        .AboutCard{
+            img{
+                width: 40%;
+            }
+            .Content{
+                h1{
+                    font-size: 8rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:426px) {
+    .AboutPage{
+        .AboutCard{
+            img{
+                width: 60%;
+            }
+            .Content{
+                h1{
+                    font-size: 6rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:321px) {
+    .AboutPage{
+        .AboutCard{
+            img{
+                width: 80%;
+                margin-bottom:5%;
+            }
+        }
+    }
+}
