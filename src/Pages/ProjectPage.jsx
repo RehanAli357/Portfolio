@@ -3,6 +3,7 @@ import "../asset/Style/SkillsPage/skills.css"
 import ProjectData from "../Data/ProjectData";
 import link from "../asset/Images/link.png"
 const ProjectPage = () => {
+    console.log(ProjectData.length);
   return (
     <React.Fragment>
         <section className='Skills'>

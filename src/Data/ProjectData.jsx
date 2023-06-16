@@ -8,7 +8,14 @@ import Image7 from "../asset/Images/insta.png";
 import Image8 from "../asset/Images/portfolio.png";
 import Image9 from "../asset/Images/bgClub.png"
 import Image10 from "../asset/Images/mvhub.png";
+import Image11 from "../asset/Images/imgEdt.png";
 const ProjectData =[
+    {
+        img:Image11,
+        link:"https://810gec.csb.app/",
+        title:"Image Editor",
+        description:"Edit unsplash Images and download it as SVG"
+    },
     {
         img:Image10,
         link:"https://rehan-flix.vercel.app/",
