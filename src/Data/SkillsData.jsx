@@ -11,6 +11,7 @@ import firebase from "../asset/Images/firebase.png";
 import sass from "../asset/Images/sass.png";
 import ruby from "../asset/Images/ruby.png"
 import next from "../asset/Images/nextjs.svg";
+import redux from "../asset/Images/redux.png";
 const SkillsData =[
     {
         name:"HTML",
@@ -41,6 +42,11 @@ const SkillsData =[
         name:"ReactJs",
         details:"ReactJs is a front-end library of the Javascript to build single page applications",
         image:React
+    },
+    {
+        name:"Redux",
+        details:"Redux is simply a store to store the state of the variables in your app and which can be shared by any component",
+        image:redux
     },
     {
         name:"NextJs",
